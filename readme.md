@@ -16,7 +16,8 @@ pip install -r requirements.txt
 
 **Step 3: Set up your Embedding API in `config.py`**
 
-**Step 4: Download Datasets**
+**Step 4: Download the weight file and place it in the `checkpoints/best.pt`**
+weight link: https://drive.google.com/file/d/1EvsBxLm7mH6e7-EoYd8Q_fkm0S_lXnsN/view?usp=sharing
 
 Download the datasets and place them in the `dataset/` folder.
 
