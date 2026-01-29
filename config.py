@@ -32,7 +32,7 @@ class Config:
 @dataclass
 class RunningConfig(Config):
     dataset_name: str = "wikiQA"
-    checkpoint: str = "./checkpoints/best.pt"
+    checkpoint: str = "./checkpoints/model.pt"
     explore_sources: List[str] = field(default_factory=lambda: ["EE", "EP"])
     rank_mode: str = "scorer" # deprecated
     max_cand: int = 32
